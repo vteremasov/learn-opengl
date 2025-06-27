@@ -1,0 +1,7 @@
+[submodule "libs/glfw"]
+	path = libs/glfw
+	url = git@github.com:glfw/glfw.git
+[submodule "libs/glad"]
+	path = libs/glad
+	url = git@github.com:Dav1dde/glad.git
+	branch = master

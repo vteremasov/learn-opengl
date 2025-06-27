@@ -1,0 +1,13 @@
+libs/
+CMakeFiles/
+.cache/
+build/
+CMakeCache.txt
+compile_commands.json
+window
+hello_window
+triangles
+triangles_hw
+libglad.a
+Makefile
+cmake_install.cmake
