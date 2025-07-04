@@ -58,3 +58,25 @@ target_link_libraries(triangles_hw
     glfw
     ${OPENGL_gl_LIBRARY}
 )
+
+add_executable(rainbow_triangle
+  rainbow_triangle.c
+)
+
+# Link libraries
+target_link_libraries(rainbow_triangle
+    glad
+    glfw
+    ${OPENGL_gl_LIBRARY}
+)
+
+add_executable(triangle_upside_down
+  triangle_upside_down.c
+)
+
+# Link libraries
+target_link_libraries(triangle_upside_down
+    glad
+    glfw
+    ${OPENGL_gl_LIBRARY}
+)
